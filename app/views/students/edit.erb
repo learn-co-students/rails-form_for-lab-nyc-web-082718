@@ -1,0 +1,7 @@
+<%= form_for(@student) do |info| %>
+  <%= info.label :first_name %>
+  <%= info.text_field :first_name%>
+  <%= info.label :last_name %>
+  <%= info.text_field :last_name %>
+  <%= info.submit %>
+<% end %>
