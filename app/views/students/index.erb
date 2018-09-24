@@ -1,0 +1,4 @@
+<% @students.each do |student| %>
+  <h4> <%=  link_to "Student " + student.id.to_s, "students/" + student.id.to_s %> </h4>
+  <%= student.to_s %>
+<% end %>
